@@ -1,173 +1,177 @@
-*{
-    font-family:'Montserrat';
-    padding: 0px;
-    margin: 0px;
-    color: rgba(255, 255, 255, 0.879); 
+* {
+  font-family: "Montserrat";
+  padding: 0px;
+  margin: 0px;
+  color: rgba(255, 255, 255, 0.879);
 }
-body
-{
-    background-color: #0E0E0E;
-    margin: auto;
-}
-
-.fodo1
- {
-    max-width: 1000px;
-    margin: auto;
- }
-
-nav{
-    padding-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+body {
+  background-color: #0e0e0e;
+  margin: auto;
 }
 
-.container{
-    animation: opacity-site 1.75s;
+.fodo1 {
+  max-width: 1000px;
+  padding-bottom: 100px;
+  margin: auto;
+}
+
+nav {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  animation: opacity-site 1.75s;
 }
 
 @keyframes opacity-site {
-    from {
-        opacity: 0%;
-    }
-    to {
-        opacity: 100%;
-    }
-}
-
-.specility-name{
-    padding-top: 5px;
-    font-size: 18px;
-    opacity: 80%;
-    transition: all 0.5s;
-}
-
-.specility-name:hover{
+  from {
+    opacity: 0%;
+  }
+  to {
     opacity: 100%;
+  }
 }
 
-.logo-name{
-    cursor: pointer;
+.specility-name {
+  padding-top: 5px;
+  font-size: 18px;
+  opacity: 80%;
+  transition: all 0.5s;
 }
 
-.logo-name h1{
-    font-size: 40px;
-}
-.logo-name h2{
-    font-size: 20px;
-    animation: khalil;
+.specility-name:hover {
+  opacity: 100%;
 }
 
-.linkedin-logo{
-    width: 40px;
-    height: 40px;
-    opacity: 50%;
-    cursor: pointer;
-    transition: all 0.5s;
-    margin-top: auto;
-    margin-bottom: auto;
+.logo-name {
+  cursor: pointer;
 }
 
-.linkedin-logo:hover{
-    opacity: 100%;
+.logo-name h1 {
+  font-size: 40px;
+}
+.logo-name h2 {
+  font-size: 20px;
+  animation: khalil;
 }
 
-.Resume{
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-    color: rgba(255, 255, 255, 0.879);
-    border-radius: 7px;
-    background-color: #1c74e7d2;
-    padding: 14px 30px;
-    margin-top: auto;
-    margin-bottom: auto;
-    transition: all 0.5s;
-    font-size: 15px;
+.linkedin-logo {
+  width: 40px;
+  height: 40px;
+  opacity: 50%;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-.Resume:hover{
-    background-color: #1C73E7;
+.linkedin-logo:hover {
+  opacity: 100%;
 }
 
-#about{
-    padding-top: 50px;
+.Resume {
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.879);
+  border-radius: 7px;
+  background-color: #1c74e7d2;
+  padding: 14px 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  transition: all 0.5s;
+  font-size: 15px;
+}
+
+.Resume:hover {
+  background-color: #1c73e7;
+}
+
+#about {
+  padding-top: 50px;
 }
 
 .About-title {
-    padding-bottom: 50px;
-    color: rgba(255, 255, 255, 0.879);
-    font-size: 36px;
+  padding-bottom: 50px;
+  color: rgba(255, 255, 255, 0.879);
+  font-size: 36px;
 }
 
-.about{
-    display: flex;
-    gap: 35px;
-    
-    padding: 30px;
-    border-radius: 5px;
+.about {
+  display: flex;
+  gap: 35px;
+
+  padding: 30px;
+  border-radius: 5px;
 }
 
-.about p{
-    
-    font-size: 32px;
-    line-height: 45px;
-    align-self: center;
+.about p {
+  font-size: 32px;
+  line-height: 45px;
+  align-self: center;
 }
 
-.about p span, .Education-flex span{
-    font-weight: bold;
+.about p span,
+.Education-flex span {
+  font-weight: bold;
 }
 
-.about img{ 
-    align-self: center;
+.about img {
+  align-self: center;
+  border-radius: 6px;
 }
 section {
-    padding-top: 75px;
+  padding-top: 75px;
 }
 
-.Education-flex{
-    padding-top: 20px;
-    display: flex;
-    gap: 40px;
-    font-size: 24px;
+.Education-flex {
+  padding-top: 20px;
+  display: flex;
+  gap: 40px;
+  font-size: 24px;
 }
 
-.Education-flex div{
-    background-color: #1e1e1e;
-    padding: 40px;
+.Education-flex div {
+  background-color: #1e1e1e8d;
+  border-radius: 6px;
+  padding: 40px;
 }
 
-.Education-flex img{
-    display: inline;
-}
-
-#about{
-    animation: opacity-about 4s;
+#about {
+  animation: opacity-about 4s;
 }
 
 @keyframes opacity-about {
-    from {
-        opacity: 0%;
-    }
-    to {
-        opacity: 100%;
-    }
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
 }
-footer{
-    margin-top: 50px;
-    border-radius: 5px;
-    font-size: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #1e1e1e;
-    text-align: center;
-    width: 100%;
-    margin: auto;
-}
-
-footer div{
- padding: 20px 40px;
+footer {
+  position: fixed;
+  bottom: 0;
+  margin-top: 50px;
+  border-radius: 5px;
+  font-size: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1e1e1e7b;
+  text-align: center;
+  width: 100%;
+  margin: auto;
 }
 
+footer div p {
+  padding: 20px 40px;
+  font-size: 18px;
+}
+
+footer div p span {
+  font-weight: 600;
+  cursor: pointer;
+}
