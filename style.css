@@ -4,9 +4,19 @@
   margin: 0px;
   color: rgba(255, 255, 255, 0.879);
 }
+
+p {
+  font-size: 20px;
+  line-height: 33px;
+}
+
 body {
   background-color: #0e0e0e;
   margin: auto;
+  background-image: url(image/BackgroundDg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }
 
 .fodo1 {
@@ -103,13 +113,12 @@ nav {
 .about {
   display: flex;
   gap: 35px;
-
-  padding: 30px;
   border-radius: 5px;
 }
 
 .about p {
-  font-size: 32px;
+  font-size: 28px;
+  opacity: 80%;
   line-height: 45px;
   align-self: center;
 }
@@ -117,6 +126,7 @@ nav {
 .about p span,
 .Education-flex span {
   font-weight: bold;
+  opacity: 100%;
 }
 
 .about img {
@@ -135,7 +145,7 @@ section {
 }
 
 .Education-flex div {
-  background-color: #1e1e1e8d;
+  background-color: #1e1e1e61;
   border-radius: 6px;
   padding: 40px;
 }
