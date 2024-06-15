@@ -19,10 +19,17 @@ body {
   background-position: top;
 }
 
-.fodo1 {
+.fodo {
   max-width: 1000px;
   padding-bottom: 100px;
   margin: auto;
+}
+
+.project-title {
+  background-color: #000000b8;
+  width: 100%;
+  height: 40px;
+  border-radius: 0;
 }
 
 nav {
@@ -140,14 +147,21 @@ section {
 .Education-flex {
   padding-top: 20px;
   display: flex;
-  gap: 40px;
+  gap: 20px;
   font-size: 24px;
 }
-
+.background-image-gif {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 260px;
+  background-color: rgba(255, 255, 255, 0.079);
+  width: 100%;
+  display: flex;
+  align-items: end;
+}
 .Education-flex div {
   background-color: #ffffff06;
   border-radius: 6px;
-  padding: 40px;
 }
 
 #about {
@@ -184,4 +198,40 @@ footer div p {
 footer div p span {
   font-weight: 600;
   cursor: pointer;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-pic {
+  object-fit: cover;
+  width: 170px;
+  height: 170px;
+}
+
+.project-card {
+  width: 100%;
+  position: relative;
+}
+
+.project-details {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.project-education {
+  font-size: 19px;
+}
+
+.project-description {
+  font-size: 15px;
+  opacity: 60%;
+  line-height: 25px;
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
