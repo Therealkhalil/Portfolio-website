@@ -47,6 +47,7 @@ nav {
   from {
     opacity: 0%;
   }
+
   to {
     opacity: 100%;
   }
@@ -70,6 +71,7 @@ nav {
 .logo-name h1 {
   font-size: 40px;
 }
+
 .logo-name h2 {
   font-size: 20px;
   animation: khalil;
@@ -140,6 +142,23 @@ nav {
   align-self: center;
   border-radius: 6px;
 }
+
+.work-place {
+  display: flex;
+  margin-top: 60px;
+  padding: 20px;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.027);
+}
+
+
+.work-place p {
+  opacity: 60%;
+  align-self: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+
 section {
   padding-top: 75px;
 }
@@ -186,10 +205,12 @@ section {
   from {
     opacity: 0%;
   }
+
   to {
     opacity: 100%;
   }
 }
+
 footer {
   position: fixed;
   bottom: 0;
