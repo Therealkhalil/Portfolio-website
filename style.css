@@ -151,6 +151,9 @@ nav {
   background-color: rgba(255, 255, 255, 0.027);
 }
 
+.work-place img {
+  filter: grayscale(100%);
+}
 
 .work-place p {
   opacity: 60%;
