@@ -4,6 +4,19 @@
   margin: 0px;
   color: rgba(255, 255, 255, 0.879);
 }
+.Education-flex a {
+  all: unset;
+  display: block;
+  cursor: pointer;
+  color: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  transition: all 1s;
+}
+.Education-flex a:hover {
+  opacity: 60%;
+}
 
 p {
   font-size: 20px;
@@ -20,6 +33,7 @@ body {
 }
 
 .fodo {
+  font-style: normal;
   max-width: 1000px;
   padding-bottom: 100px;
   margin: auto;
@@ -204,7 +218,7 @@ section {
   animation: opacity-about 4s;
 }
 
-@keyframes opacity-about {
+/* @keyframes opacity-about {
   from {
     opacity: 0%;
   }
@@ -212,7 +226,7 @@ section {
   to {
     opacity: 100%;
   }
-}
+} */
 
 footer {
   position: fixed;
@@ -277,4 +291,29 @@ footer div p span {
   line-height: 25px;
   padding-top: 10px;
   padding-bottom: 40px;
+}
+
+/* Wakeup Project Site */
+.title-wakeup {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container-wakeup {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.015);
+  height: 1655px;
+}
+
+.flex-wakeup {
+  display: flex;
+  gap: 12px;
+  justify-content: space-around;
+}
+
+.image-wakeup img {
+  margin-left: auto;
+  margin-right: auto;
 }
