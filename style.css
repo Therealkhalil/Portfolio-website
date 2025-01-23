@@ -1,319 +1,128 @@
-* {
-  font-family: "Montserrat";
-  padding: 0px;
-  margin: 0px;
-  color: rgba(255, 255, 255, 0.879);
-}
-.Education-flex a {
-  all: unset;
-  display: block;
-  cursor: pointer;
-  color: none;
-  text-decoration: none;
-  padding: 0;
-  margin: 0;
-  transition: all 1s;
-}
-.Education-flex a:hover {
-  opacity: 60%;
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
-p {
-  font-size: 20px;
-  line-height: 33px;
-}
 
 body {
-  background-color: #0e0e0e;
-  margin: auto;
-  background-image: url(image/BackgroundDg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
+    background: rgb(7,8,10);
+    background: linear-gradient(360deg, rgba(7,8,10,1) 0%, rgb(15, 19, 33) 90%, rgb(18, 22, 39) 100%);
+    font-family: Arial, sans-serif;
+    color: white;
 }
 
-.fodo {
-  font-style: normal;
-  max-width: 1000px;
-  padding-bottom: 100px;
-  margin: auto;
+p,h1{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 
-.project-title {
-  background-color: #000000b8;
-  width: 100%;
-  height: 40px;
-  border-radius: 0;
+.full-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
 }
 
-nav {
-  padding-top: 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0px;
+    background: #0E111D;
 }
 
-.container {
-  animation: opacity-site 1.75s;
+nav img{
+    padding-left: 40px;
 }
 
-@keyframes opacity-site {
-  from {
-    opacity: 0%;
-  }
-
-  to {
-    opacity: 100%;
-  }
+nav p{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.container{
+   display: flex;
+   align-items: center;
+   column-gap: 50px;
+   /* background-color: green; */
+   flex-grow: 1;
 }
 
-.specility-name {
-  padding-top: 5px;
-  font-size: 18px;
-  opacity: 80%;
-  transition: all 0.5s;
+.menu{
+    /* background-color: red; */
+    height: fit-content;
 }
-
-.specility-name:hover {
-  opacity: 100%;
-}
-
-.logo-name {
-  cursor: pointer;
-}
-
-.logo-name h1 {
-  font-size: 40px;
-}
-
-.logo-name h2 {
-  font-size: 20px;
-  animation: khalil;
-}
-
-.linkedin-logo {
-  width: 40px;
-  height: 40px;
-  opacity: 50%;
-  cursor: pointer;
-  transition: all 0.5s;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.linkedin-logo:hover {
-  opacity: 100%;
-}
-
-.Resume {
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-  color: rgba(255, 255, 255, 0.879);
-  border-radius: 7px;
-  background-color: #1c74e7d2;
-  padding: 14px 30px;
-  margin-top: auto;
-  margin-bottom: auto;
-  transition: all 0.5s;
-  font-size: 15px;
-}
-
-.Resume:hover {
-  background-color: #1c73e7;
-}
-
-#about {
-  padding-top: 50px;
-}
-
-.About-title {
-  padding-bottom: 50px;
-  color: rgba(255, 255, 255, 0.879);
-  font-size: 36px;
-}
-
-.about {
-  display: flex;
-  gap: 35px;
-  border-radius: 5px;
-}
-
-.about p {
-  font-size: 28px;
-  opacity: 80%;
-  line-height: 45px;
-  align-self: center;
-}
-
-.about p span,
-.Education-flex span {
-  font-weight: bold;
-  opacity: 100%;
-}
-
-.about img {
-  align-self: center;
-  border-radius: 6px;
-}
-
-.work-place {
-  display: flex;
-  margin-top: 60px;
-  padding: 20px;
-  justify-content: space-evenly;
-  background-color: rgba(255, 255, 255, 0.02);
-}
-
-.work-place img {
-  filter: grayscale(100%);
-}
-
-.work-place p {
-  opacity: 60%;
-  align-self: center;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-section {
-  padding-top: 75px;
-}
-
-.Project-flex {
-  padding-top: 20px;
-  display: flex;
-  gap: 20px;
-  font-size: 24px;
-}
-
-.Education-flex {
-  padding-top: 20px;
-  display: flex;
-  gap: 20px;
-  font-size: 24px;
-}
-
-.background-image-gif {
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 260px;
-  background-color: rgba(255, 255, 255, 0.079);
-  width: 100%;
-  display: flex;
-  align-items: end;
-}
-
-.Education-flex div {
-  background-color: #ffffff06;
-  border-radius: 6px;
-}
-
-.Project-flex div {
-  background-color: #ffffff06;
-  border-radius: 6px;
-}
-
-#about {
-  animation: opacity-about 4s;
-}
-
-/* @keyframes opacity-about {
-  from {
-    opacity: 0%;
-  }
-
-  to {
-    opacity: 100%;
-  }
-} */
 
 footer {
-  position: fixed;
-  bottom: 0;
-  margin-top: 50px;
-  border-radius: 5px;
-  font-size: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #ffffff06;
-  text-align: center;
-  width: 100%;
-  margin: auto;
+    /* background-color: rgb(244, 127, 255); */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding-bottom: 25px;
 }
 
-footer div p {
-  padding: 20px 40px;
-  font-size: 18px;
+.social-media {
+    display: inline-block;
+    vertical-align: middle; /* Aligns items vertically */
+    cursor: pointer;
 }
 
-footer div p span {
-  font-weight: 600;
-  cursor: pointer;
+.social-media img {
+    vertical-align: middle; /* Aligns the image */
 }
 
-.icon-container {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+.social-media p {
+    display: inline-block; /* Makes the paragraph inline */
+    vertical-align: middle; /* Aligns with the image */
+    transition: color 0.5s;
 }
 
-.profile-pic {
-  object-fit: cover;
-  width: 170px;
-  height: 170px;
+
+h1{
+    font-size: 28px;
 }
 
-.project-card {
-  width: 100%;
-  position: relative;
+.social-media:hover {
+    color: rgb(52, 181, 255);
 }
 
-.education-card {
-  width: 100%;
-  position: relative;
+.social-media a:hover{
+    color: rgb(52, 181, 255);
 }
 
-.project-details {
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+
+.menu a{
+   transition: color 0.5s;
 }
 
-.project-education {
-  font-size: 19px;
+.menu a:hover{
+    color: rgb(52, 181, 255);
 }
 
-.project-description {
-  font-size: 15px;
-  opacity: 60%;
-  line-height: 25px;
-  padding-top: 10px;
-  padding-bottom: 40px;
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        margin-top: 150px;
+        padding-bottom: 50px;
+    }
+
+    footer .social-media p {
+        display: none;
+    }
 }
 
-/* Wakeup Project Site */
-.title-wakeup {
-  font-size: 28px;
-  font-weight: 800;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.container-wakeup {
-  padding: 30px;
-  background-color: rgba(255, 255, 255, 0.015);
-  height: 1655px;
-}
-
-.flex-wakeup {
-  display: flex;
-  gap: 12px;
-  justify-content: space-around;
-}
-
-.image-wakeup img {
-  margin-left: auto;
-  margin-right: auto;
-}
